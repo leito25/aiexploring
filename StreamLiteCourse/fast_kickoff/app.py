@@ -83,7 +83,7 @@ email = "leonardo.quinones@unity3d.com"
 api_token = os.getenv("MY_ZENDESK_KEY")#, "MY_ZENDESK_KEY")
 
 # Construct the combined string
-combined_str = (f"{EMAIL}/token", api_token)
+combined_str = f"{email}/token:{api_token}"
 
 # Encode the string in Base64
 encoded_bytes = base64.b64encode(combined_str.encode("utf-8"))
