@@ -7,7 +7,6 @@ email = "leonardo.quinones@unity3d.com"
 # It's best practice to store your API token securely, e.g., as an environment variable
 # For this example, we'll use a placeholder, but in a real application, use os.getenv()
 api_token = os.getenv("ZENDESK_API_KEY")
-#api_token = "ZLvf3vfZtgr8LZKU5mF0S3RKUVQsE2wXoJcJI4Yg"
 # Construct the combined string
 #combined_str = f"{email}/token:{api_token}"
 combined_str = f"{email}/token:{api_token}"
